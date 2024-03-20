@@ -1,0 +1,4 @@
+easybot provides CMake targets:
+
+find_package(easybot CONFIG REQUIRED)
+target_link_libraries(main PRIVATE easybot::easybot)
