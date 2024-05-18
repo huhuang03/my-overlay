@@ -1,0 +1,2 @@
+find_package(QtAwesome REQUIRED)
+target_link_library(the_target QtAwesome::QtAwesome)
